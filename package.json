@@ -1,0 +1,29 @@
+{
+
+  "name": "selenium-practice",
+
+  "version": "1.0.0",
+
+  "type": "module",
+
+  "description": "selenium webdriver automation testing practise",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "author": "Nusrat Jahan Chaity",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "selenium-webdriver": "^4.36.0"
+
+  }
+
+}
