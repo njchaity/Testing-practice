@@ -10,8 +10,7 @@ async function testRunner() {
   await driver.findElement(By.xpath("//input[@placeholder='Search']")).sendKeys("Desk pen holder", Key.ENTER);
   await driver.sleep(3000);
   await driver.findElement(By.xpath("//a[@href='/accessories/desk-pen-holder-yellow']")).click();
-
-await driver.sleep(5000);
+  await driver.sleep(5000);
   await driver.quit();
 }
 testRunner();
